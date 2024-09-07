@@ -1,4 +1,4 @@
-export const add = (a, b) => a + b;
+import add from "./add";
 
 export const totalCost = (productPrices, deliveryCharge = 0) => {
   const totalProductPrice = productPrices.reduce(
