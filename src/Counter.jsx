@@ -5,7 +5,12 @@ function Counter() {
 
   return (
     <div className="counter">
-      <button data-testid="counter-button">{count}</button>
+      <button
+        data-testid="counter-button"
+        onClick={() => setCount((prev) => prev + 1)}
+      >
+        {count}
+      </button>
     </div>
   );
 }

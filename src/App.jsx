@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import Counter from "./Counter";
+import FormRapper from "./FormRapper";
 
 const App = () => (
   <Router>
@@ -10,6 +11,7 @@ const App = () => (
       </header>
       <Switch>
         <Route exact path="/" component={Counter} />
+        <Route exact path="/form" component={FormRapper} />
         {/* <Route exact path="/movies-list" component={MoviesList} />
         <Route path="/:id" component={MovieDetail} /> */}
       </Switch>
