@@ -1,7 +1,7 @@
 import React from "react";
-import { cleanup, fireEvent, render, waitFor } from "@testing-library/react";
+import { cleanup, render, waitFor } from "@testing-library/react";
 import mockFetch from "jest-fetch-mock";
-import MovieDetail from "./MovieDetail";
+import MovieDetail from "../MovieDetail";
 
 afterEach(cleanup);
 

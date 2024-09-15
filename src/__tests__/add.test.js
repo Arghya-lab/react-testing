@@ -1,6 +1,5 @@
-/* eslint-disable no-undef */
-import add from "./add";
-import totalCost from "./totalCost";
+import add from "../add";
+import totalCost from "../totalCost";
 
 //  STEP - I  // //
 test("Fake Test", () => {

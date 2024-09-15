@@ -1,8 +1,7 @@
-/* eslint-disable no-undef */
-import add from "./add"; // Import the mocked add
-import totalCost from "./totalCost";
+import add from "../add"; // Import the mocked add
+import totalCost from "../totalCost";
 
-jest.mock("./add.js", () => jest.fn(() => 0));
+jest.mock("../add.js", () => jest.fn(() => 0));
 
 //  to clear mock function in each test
 afterEach(() => add.mockClear());

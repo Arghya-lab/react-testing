@@ -1,15 +1,9 @@
 import React from "react";
 import { MemoryRouter } from "react-router-dom";
-import {
-  cleanup,
-  fireEvent,
-  getAllByTestId,
-  render,
-  waitFor,
-} from "@testing-library/react";
+import { cleanup, render, waitFor } from "@testing-library/react";
 import mockFetch from "jest-fetch-mock";
-import MovieList from "./MovieList";
-import { POSTER_PATH } from "./Movie";
+import MovieList from "../MovieList";
+import { POSTER_PATH } from "../Movie";
 
 afterEach(cleanup);
 

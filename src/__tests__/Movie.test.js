@@ -1,7 +1,7 @@
 import React from "react";
 import { MemoryRouter } from "react-router-dom";
-import { cleanup, fireEvent, render } from "@testing-library/react";
-import Movie, { POSTER_PATH } from "./Movie";
+import { cleanup, render } from "@testing-library/react";
+import Movie, { POSTER_PATH } from "../Movie";
 
 afterEach(cleanup);
 console.error = jest.fn();
